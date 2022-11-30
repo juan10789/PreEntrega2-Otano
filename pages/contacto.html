@@ -8,7 +8,7 @@
     <!-- FAVICON -->
     <link
       rel="shortcut icon"
-      href="../img/plaquitas negocio 2.png negocio 2.png"
+      href="../img/plaquitas negocio 2.png"
       type="image/x-icon"
     />
     <!-- CSS only -->
@@ -73,12 +73,58 @@
         </div>
       </nav>
     </header>
+    <section class="slogan">
+      <div class="container"><h1>CONTACTANOS</h1></div>
+    </section>
+    <section class="contacto">
+      <div class="container">
+        <article class="contacto__formas">
+          <div class="formas__telefono">
+            <img src="../img/iconmonstr-phone-1-32.png" alt="telefono" />
+            <p>0376-4592229/3133</p>
+          </div>
+          <div class="formas__whats">
+            <img src="../img/iconmonstr-whatsapp-4-32.png" alt="whatsapp" />
+            <p>0376-50326000</p>
+          </div>
+          <div class="formas__mail">
+            <img src="../img/iconmonstr-email-3-32.png" alt="mail" />
+            <p>
+              <a href="mailto:placanorte@gmail.com">placanorte@gmail.com</a>
+            </p>
+          </div>
+        </article>
+        <article>
+          <form action="" class="contacto__formulario">
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" name="nombre" id="nombre" />
+            <label for="email">Mail</label>
+            <input type="email" name="email" id="email" />
+            <label for="motivo">Motivo de contaco</label>
+            <select name="motivo" id="motivo">
+              <option value="presupuesto">Presupuesto</option>
+              <option value="estadopedido">Estado de Pedido</option>
+              <option value="otro">Otro</option>
+            </select>
+            <label for="mensaje">Escribe tu consulta</label>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
+          </form>
+        </article>
+      </div>
+    </section>
     <!-- Enpieza el footer -->
     <footer class="footer">
       <div class="container">
         <div class="row text-center">
           <div class="col">
-            <h4 class="m-3 text-white">Seguinos en las redes</h4>
+            <h5 class="m-3 text-white">Seguinos en las redes</h5>
             <a href="https://www.instagram.com/placanorte_posadas/"
               ><i
                 class="bi bi-instagram m-3 icon-white"
@@ -93,7 +139,7 @@
             ></a>
           </div>
           <div class="col">
-            <h4 class="m-3 text-white">Contactanos</h4>
+            <h5 class="m-3 text-white">Contactanos</h5>
             <a href="https://wa.me/message/WR2JZIUM7EHSB1"
               ><i
                 class="bi bi-whatsapp m-3 icon-white"
@@ -106,18 +152,18 @@
                 style="font-size: 2rem"
               ></i
             ></a>
+            <p class="pt-2 text-white">Tel: 0376-4592229/3133</p>
           </div>
-          <div class="col">
+          <div class="col mt-1">
             <i
               class="bi bi-geo-alt-fill icon-white"
               style="font-size: 2rem"
             ></i>
-            <div class="m-3 text-white">
-              <span>
-                <p>Av. Lavalle 4147</p>
-                <p>Posadas-Misiones-Argentina</p>
-                <p>CP: 3300</p>
-              </span>
+            <div class="m-1 text-white">
+              <p>
+                Av. Lavalle 4147 <br />
+                Posadas-Misiones-Argentina <br />CP:3300
+              </p>
             </div>
           </div>
         </div>
