@@ -51,6 +51,9 @@
 
 .footer {
   background-image: linear-gradient(#084035, black);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .icon-white {
@@ -79,175 +82,12 @@ main {
 }
 
 body {
+  position: relative;
   min-height: 100vh;
+  padding-bottom: 12.5rem;
 }
 
-/* css anterior*/
-
-.slogan {
-  text-align: center;
-  background-color: #27368c;
-  color: white;
-}
-.logos {
-  display: flex;
-  background-color: #f20732;
-  align-items: baseline;
-  width: 100%;
-}
-.logos__list {
-  list-style: none;
-}
-.logos__items {
-  display: inline-block;
-  border: none;
-  height: 7rem;
-  width: 12rem;
-  margin: 0.5rem;
-  padding: 0.5rem;
-  overflow: hidden;
-}
-
-.destacados__title {
-  text-align: center;
-  padding: 1rem auto;
-  margin: 2rem;
-  margin-top: 3rem;
-}
-.destacados__list {
-  list-style: none;
-}
-.destacados__items {
-  display: inline-block;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  width: 300px;
-  height: 215px;
-}
-.tutoriales__title {
-  text-align: center;
-  padding: 1rem auto;
-  margin: 2rem;
-  margin-top: 3rem;
-}
-.tutoriales__list {
-  list-style: none;
-}
-.tutoriales__items {
-  margin: 1rem;
-  display: inline-block;
-}
-
-footer {
-  background-color: #084035;
-  color: white;
-  margin-top: 4rem;
-  border-top: solid black 2px;
-}
-.footer__icon {
-  margin: 2rem 1rem 2rem 3rem;
-}
-.footer__direccion h2 {
-  text-align: left;
-}
-.footer__direccion {
-  width: 14rem;
-  margin: 1rem;
-}
-.footer__map iframe {
-  margin: 1rem 0 1rem 8rem;
-}
-/*SERVICIOS*/
-.servicios {
-  display: flex;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  padding: 1rem;
-  justify-content: space-evenly;
-}
-.servicios img {
-  width: 22rem;
+.servicios__img {
   height: 22rem;
-}
-.servicios__tarjeta {
   width: 22rem;
-}
-
-.nosotros__tarjeta {
-  margin: 2rem;
-}
-.nosotros img {
-  width: 100vw;
-  height: 20rem;
-}
-.oficiales {
-  text-align: center;
-  padding: 2rem;
-  background-image: url(../img/pexels-pixabay-301717.jpg);
-}
-.productos {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-.productos h3 {
-  text-align: center;
-  margin: 3rem;
-  color: red;
-}
-.productos__paneles {
-  display: flex;
-  justify-content: space-evenly;
-  border: 8px solid red;
-  padding: 3rem;
-}
-.productos__herrajes {
-  display: flex;
-  justify-content: space-evenly;
-  border: 8px solid red;
-  padding: 3rem;
-}
-.productos__adhesivos {
-  display: flex;
-  justify-content: space-evenly;
-  border: 8px solid red;
-  padding: 3rem;
-}
-.productos__herramientas {
-  display: flex;
-  justify-content: space-evenly;
-  border: 8px solid red;
-  padding: 3rem;
-}
-.productos img {
-  width: 15rem;
-  height: 8rem;
-}
-.contacto {
-  margin-top: 3rem;
-}
-.contacto .container {
-  display: flex;
-  justify-content: space-evenly;
-}
-.contacto__formulario {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.formas__telefono {
-  display: flex;
-  padding: 1rem;
-  gap: 0.5rem;
-}
-.formas__whats {
-  display: flex;
-  padding: 1rem;
-  gap: 0.5rem;
-}
-.formas__mail {
-  display: flex;
-  padding: 1rem;
-  gap: 0.5rem;
 }
