@@ -51,9 +51,6 @@
 
 .footer {
   background-image: linear-gradient(#084035, black);
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 .icon-white {
@@ -79,12 +76,6 @@ main {
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#b6adad",GradientType=1);
   padding-bottom: 0.5rem;
-}
-
-body {
-  position: relative;
-  min-height: 100vh;
-  padding-bottom: 12.5rem;
 }
 
 .servicios__img {
