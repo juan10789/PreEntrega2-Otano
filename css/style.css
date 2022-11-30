@@ -49,6 +49,10 @@
   filter: grayscale();
 }
 
+main {
+  min-height: 100vh;
+}
+
 .footer {
   background-image: linear-gradient(#084035, black);
 }
@@ -57,7 +61,7 @@
   color: white;
 }
 
-main {
+.index__main {
   background: rgb(255, 255, 255);
   background: -moz-radial-gradient(
     circle,
