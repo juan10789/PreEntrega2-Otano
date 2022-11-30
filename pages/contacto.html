@@ -73,50 +73,106 @@
         </div>
       </nav>
     </header>
-    <section class="slogan">
-      <div class="container"><h1>CONTACTANOS</h1></div>
+    <!-- contacto -->
+    <section>
+      <div class="container my-5">
+        <h1 class="text-center mb-5">Contactanos</h1>
+        <div class="row">
+          <div class="col-md-6 position-relative">
+            <div class="position-absolute top-50 start-50 translate-middle">
+              <div>
+                <p>
+                  <i
+                    class="bi bi-telephone-fill icon-green"
+                    style="font-size: 2rem"
+                  ></i>
+                  0376-4592229/3133
+                </p>
+              </div>
+              <div>
+                <p class="icon-green">
+                  <a href="https://wa.me/message/WR2JZIUM7EHSB1"
+                    ><i
+                      class="bi bi-whatsapp icon-green"
+                      style="font-size: 2rem"
+                    ></i
+                  ></a>
+                  +549-376-5032600
+                </p>
+              </div>
+              <div>
+                <p>
+                  <i
+                    class="bi bi-envelope-fill icon-green"
+                    style="font-size: 2rem"
+                  ></i>
+                  <a class="icon-green" href="mailto:placanorte@gmail.com"
+                    >placanorte@gmail.com</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 contacto position-relative">
+            <iframe
+              class="iframe_maps"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3542.609894524923!2d-55.92167288494486!3d-27.38789608292526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457be6f514ee9f3%3A0x4fb3a675c03ee130!2sPlacaNorte!5e0!3m2!1ses!2sar!4v1666547606346!5m2!1ses!2sar"
+              width="300"
+              height="200"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
     </section>
-    <section class="contacto">
-      <div class="container">
-        <article class="contacto__formas">
-          <div class="formas__telefono">
-            <img src="../img/iconmonstr-phone-1-32.png" alt="telefono" />
-            <p>0376-4592229/3133</p>
-          </div>
-          <div class="formas__whats">
-            <img src="../img/iconmonstr-whatsapp-4-32.png" alt="whatsapp" />
-            <p>0376-50326000</p>
-          </div>
-          <div class="formas__mail">
-            <img src="../img/iconmonstr-email-3-32.png" alt="mail" />
-            <p>
-              <a href="mailto:placanorte@gmail.com">placanorte@gmail.com</a>
-            </p>
-          </div>
-        </article>
-        <article>
-          <form action="" class="contacto__formulario">
+    <!-- Formulario -->
+    <section>
+      <div class="container my-5">
+        <h2 class="py-5">Formulario de Contacto</h2>
+        <form action="" class="">
+          <div class="form-floating mb-3 w-50">
+            <input
+              type="text"
+              class="form-control"
+              id="nombre"
+              placeholder="Juan Perez"
+            />
             <label for="nombre">Nombre y Apellido</label>
-            <input type="text" name="nombre" id="nombre" />
-            <label for="email">Mail</label>
-            <input type="email" name="email" id="email" />
-            <label for="motivo">Motivo de contaco</label>
-            <select name="motivo" id="motivo">
-              <option value="presupuesto">Presupuesto</option>
-              <option value="estadopedido">Estado de Pedido</option>
-              <option value="otro">Otro</option>
-            </select>
-            <label for="mensaje">Escribe tu consulta</label>
+          </div>
+          <div class="form-floating mb-3 w-50">
+            <input
+              type="email"
+              class="form-control"
+              id="mail"
+              placeholder="name@example.com"
+            />
+            <label for="mail">Email</label>
+          </div>
+          <select
+            class="form-select mb-3 w-50"
+            aria-label="Default select example"
+          >
+            <option selected>Motivo de contacto</option>
+            <option value="1">Presupuesto</option>
+            <option value="2">Estado de Pedido</option>
+            <option value="3">Otro</option>
+          </select>
+          <div class="form-floating">
             <textarea
-              name="mensaje"
-              id="mensaje"
-              cols="30"
-              rows="10"
+              class="form-control mb-4 w-50 h-auto"
+              placeholder="Leave a comment here"
+              id="consulta"
             ></textarea>
-            <input type="submit" value="Enviar" />
-            <input type="reset" value="Borrar" />
-          </form>
-        </article>
+            <label for="consulta">Escribe tu consulta</label>
+          </div>
+          <div class="mb-3">
+            <button type="submit" class="btn btn-secondary">Enviar</button>
+            <button type="reset" class="btn btn-secondary">Borrar</button>
+          </div>
+        </form>
       </div>
     </section>
     <!-- Enpieza el footer -->

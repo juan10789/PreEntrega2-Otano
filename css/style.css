@@ -91,3 +91,11 @@ body {
   height: 22rem;
   width: 22rem;
 }
+
+.contacto iframe {
+  width: 100%;
+}
+
+.icon-green {
+  color: #084035;
+}
